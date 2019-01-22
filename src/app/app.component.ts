@@ -6,9 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-<<<<<<< hop
   title = 'test-test';
-=======
-  title = 'test-git';
->>>>>>> blbl test
 }
