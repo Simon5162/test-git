@@ -3,7 +3,11 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
+<<<<<<< hop
     "test-test": {
+=======
+    "test-git": {
+>>>>>>> blbl test
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -13,7 +17,11 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+<<<<<<< hop
             "outputPath": "dist/test-test",
+=======
+            "outputPath": "dist/test-git",
+>>>>>>> blbl test
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -57,18 +65,30 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
+<<<<<<< hop
             "browserTarget": "test-test:build"
           },
           "configurations": {
             "production": {
               "browserTarget": "test-test:build:production"
+=======
+            "browserTarget": "test-git:build"
+          },
+          "configurations": {
+            "production": {
+              "browserTarget": "test-git:build:production"
+>>>>>>> blbl test
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
+<<<<<<< hop
             "browserTarget": "test-test:build"
+=======
+            "browserTarget": "test-git:build"
+>>>>>>> blbl test
           }
         },
         "test": {
@@ -102,7 +122,11 @@
         }
       }
     },
+<<<<<<< hop
     "test-test-e2e": {
+=======
+    "test-git-e2e": {
+>>>>>>> blbl test
       "root": "e2e/",
       "projectType": "application",
       "prefix": "",
@@ -111,11 +135,19 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
+<<<<<<< hop
             "devServerTarget": "test-test:serve"
           },
           "configurations": {
             "production": {
               "devServerTarget": "test-test:serve:production"
+=======
+            "devServerTarget": "test-git:serve"
+          },
+          "configurations": {
+            "production": {
+              "devServerTarget": "test-git:serve:production"
+>>>>>>> blbl test
             }
           }
         },
@@ -131,5 +163,9 @@
       }
     }
   },
+<<<<<<< hop
   "defaultProject": "test-test"
+=======
+  "defaultProject": "test-git"
+>>>>>>> blbl test
 }
