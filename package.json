@@ -13,7 +13,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
-  truc chose
+  truc chose blabla
   "private": true,
   "dependencies": {
     "@angular/animations": "~7.2.0",
